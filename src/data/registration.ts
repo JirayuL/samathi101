@@ -76,12 +76,13 @@ export const registrationForms: RegistrationForm[] = [
           {
             name: 'session',
             label:
-              'Our weekly live online sessions are held on Saturday evenings from 19:30–21:00 and Sunday mornings from 10:00–11:30, Bangkok time (UTC+7). Please choose one as your primary session. You may attend the other session in weeks when you cannot attend your preferred one.',
+              'Our weekly live online sessions are held on Saturday evenings from 19:30–21:00 and Sunday mornings from 10:00–11:30, Bangkok time (UTC+7), with an additional session for USA participants on Saturdays from 17:00–18:30, Los Angeles time (PT). Please choose one as your primary session. If you miss your primary session, you may attend another session that week.',
             type: 'radio',
             required: true,
             options: [
               'Saturday evenings from 19:30–21:00 Bangkok time (UTC+7)',
               'Sunday mornings from 10:00–11:30, Bangkok time (UTC+7)',
+              'Saturdays from 17:00–18:30, Los Angeles time (PT), for USA participants',
             ],
           },
         ],

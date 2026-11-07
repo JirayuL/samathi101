@@ -169,7 +169,7 @@ export const courses: Course[] = [
     images: [
       {
         src: micOnline,
-        alt: 'MIC Online Meditation Instructor Course, Online Batch 1 (2027) poster: free six-month course in English, 23 January – 27 June 2027, daily self-study and a weekly live session on Saturday 19:30–21:00 or Sunday 10:00–11:30 (Bangkok time), limited to 75 participants',
+        alt: 'MIC Online Meditation Instructor Course, Online Batch 1 (2027) poster: free six-month course in English, 23 January – 27 June 2027, daily self-study and a weekly live session on Saturday 19:30–21:00 or Sunday 10:00–11:30 Bangkok time, or Saturday 17:00–18:30 Los Angeles time for USA participants, orientation on Zoom on 23 January 2027, limited to 75 participants',
       },
     ],
     paragraphs: [
@@ -181,16 +181,20 @@ export const courses: Course[] = [
       { label: 'Registration', value: '1 November – 31 December 2026\nLate registration 1–10 January 2027, if spaces remain' },
       { label: 'Spaces', value: 'About 75 participants' },
       { label: 'Fee', value: 'Free of charge' },
-      { label: 'Orientation', value: 'Saturday 23 January 2027, 19:30–21:00, on Zoom' },
+      {
+        label: 'Online orientation via Zoom',
+        value:
+          'Thailand and the rest of the world: Saturday, 23 January 2027, 19:30–21:00 Bangkok time (UTC+7)\nUSA participants: Saturday, 23 January 2027, 17:00–18:30 Los Angeles time (PST, UTC−8)',
+      },
       { label: 'Daily Self-Study', value: 'Study daily lectures independently via online learning platform' },
       {
-        label: 'Weekly live session',
-        value: 'Saturday 19:30–21:00 or Sunday 10:00–11:30\nChoose one as your main session; join the other in weeks you miss it',
+        label: 'Weekly live sessions via Zoom',
+        value:
+          'Choose one of the following as your main session:\nSaturday, 19:30–21:00 Bangkok time (UTC+7)\nSunday, 10:00–11:30 Bangkok time (UTC+7)\nSaturday, 17:00–18:30 Los Angeles time (PT) — an additional option for USA participants\nIf you miss your main session, you may attend another session that week.',
       },
       { label: 'Written exam', value: '26–27 June 2027' },
       { label: 'Field exam (optional)', value: 'Doi Inthanon, Chiang Mai, late November or early December 2027' },
     ],
-    afterFacts: ['All times are Bangkok time (UTC+7).'],
     sections: [
       {
         heading: 'How You Will Learn',
